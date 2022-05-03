@@ -36,7 +36,7 @@ await Promise.all([
   ctcBob.p.Bob({
     ...Player('Bob'),
     acceptWager: (amt) => {
-      console.log(`Bob accepts thw ager of ${fmt(amt)}.`)
+      console.log(`Bob accepts the wager of ${fmt(amt)}.`)
     },
   }),
 ])
